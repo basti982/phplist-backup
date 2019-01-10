@@ -19,7 +19,7 @@ def copy(src, dst, symlinks=False, ignore=None):
             		shutil.copytree(s, d, symlinks, ignore)
         	else:
             		shutil.copy2(s, d)
-def dbversion():
+def dbversion(): #This function is not used :)
 	# Open database connection
 	db = pymysql.connect("localhost","admini","0@SYadmin","mydb" )
 
