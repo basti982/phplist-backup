@@ -1,4 +1,4 @@
-# moodle-backup
+# phplist-backup
 Requirements for backup.sh: 
 - Linux based moodle with mysql db
 - p7zip installed
