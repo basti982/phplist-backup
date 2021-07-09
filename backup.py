@@ -21,7 +21,7 @@ def copy(src, dst, symlinks=False, ignore=None):
             		shutil.copy2(s, d)
 def dbversion(): #This function is not used :)
 	# Open database connection
-	db = pymysql.connect("localhost","admini","0@SYadmin","mydb" )
+	db = pymysql.connect("localhost","admin","password","mydb" )
 
 	# prepare a cursor object using cursor() method
 	cursor = db.cursor()
