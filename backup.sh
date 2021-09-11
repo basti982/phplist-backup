@@ -7,7 +7,7 @@
 copy () {
 	mkdir $PWD/backup;
 	cp -vR $phplistpath $PWD/backup/phplist.backup;
-	mysqldump --no-tablespaces -h $dbhost -u $dbuser --password='jqx1M85_' -C -Q -e --create-options $dbname > phplist-database.sql;
+	mysqldump --no-tablespaces -h $dbhost -u $dbuser --password='secret' -C -Q -e --create-options $dbname > phplist-database.sql;
 	mv phplist-database.sql $PWD/backup/;
 	}
 
